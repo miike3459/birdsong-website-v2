@@ -9,6 +9,9 @@ function App() {
         <p>
           Did this work?
         </p>
+        <small>
+          I sure hope it did. That's the plan, anyways.
+        </small>
         <a
           className="App-link"
           href="https://reactjs.org"
