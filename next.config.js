@@ -1,3 +1,3 @@
 module.exports = {
-    basePath: '/test-react-app'
+    basePath: "/birdsong-website-v2"
 }

@@ -1,6 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import MetaLink from '../components/head';
-import * as config from '../next.config';
 
 class HeaderDocument extends Document {
     static async getInitialProps(ctx) {
@@ -17,6 +16,7 @@ class HeaderDocument extends Document {
                     <meta name="theme-color" content="#000000" />
                     <meta name="description" content="A test website by miike#3459." />
                     <MetaLink rel="manifest" href="manifest.json" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" />
                 </Head>
                 <body>
                     <Main />
