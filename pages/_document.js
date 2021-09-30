@@ -3,7 +3,7 @@ import MetaLink from '../components/head';
 
 class HeaderDocument extends Document {
     static async getInitialProps(ctx) {
-        const initialProps = await Document.getInitialProps(ctx)
+        const initialProps = await Document.getInitialProps(ctx);
         return { ...initialProps }
     }
 
@@ -13,8 +13,8 @@ class HeaderDocument extends Document {
                 <Head>
                     <meta charSet="utf-8" />
                     <MetaLink rel="shortcut icon" href="favicon.ico" />
-                    <meta name="theme-color" content="#000000" />
-                    <meta name="description" content="A test website by miike#3459." />
+                    <meta name="theme-color" content="#63BD61" />
+                    <meta name="description" content="The official website of the Birdsong project." />
                     <MetaLink rel="manifest" href="manifest.json" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                 </Head>

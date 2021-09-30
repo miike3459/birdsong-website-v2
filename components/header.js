@@ -9,7 +9,7 @@ export default class SiteHeader extends React.Component {
     }
     render () {
         return (
-            <header className="site-header">
+            <header className="site-header no-select">
                 <div className="header-wrapper container flex fill">
                     <div className="logo-container">
                         <Image src={logo} alt="Logo" className="logo-img" />
@@ -29,7 +29,9 @@ export default class SiteHeader extends React.Component {
                                 <a>Commands</a>
                             </Link>
                         </nav>
-                        <button className="responsive-button primary-button" onClick={this.redirectToInvite}>Invite</button>
+                        <button className="responsive-button primary-button no-select" onClick={this.redirectToInvite}>
+                            Invite
+                        </button>
                     </div>
                 </div>
             </header>
